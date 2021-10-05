@@ -20,6 +20,7 @@ public class HalloJavamitForEach implements List {
         }
         Consumer<String> consumer = (String s) -> System.out.println(s);
         liste.forEach((String s) -> System.out.println(s));
+        liste.forEach(System.out::print);
     }
 
     @Override
