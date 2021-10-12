@@ -12,22 +12,22 @@ public class RationalCalculator extends AbstractCalculator {
 
     @Override
     public Number add(Number a, Number b) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return add.calc(a, b);
     }
 
     @Override
     public Number subtract(Number a, Number b) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return subtract.calc(a, b);
     }
 
     @Override
     public Number multiply(Number a, Number b) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return multiply.calc(a, b);
     }
 
     @Override
     public Number divide(Number a, Number b) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return divide.calc(a, b);
     }
 
 }

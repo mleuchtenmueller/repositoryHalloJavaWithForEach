@@ -24,4 +24,9 @@ public class Number {
     public void setB(double b) {
         this.b = b;
     }
+
+    @Override
+    public String toString() {
+        return "Solution: \n" + "a = " + a + "\n" + "b = " + b;
+    }
 }
